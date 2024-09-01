@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #333; /* Dark gray for the navbar background */
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.navbar {
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    color: #ddd;
+}
+
+.main-image {
+    position: relative;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.main-img {
+    width: 100%;
+    height: auto;
+}
+
+.buy-button {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ff6600; /* Orange color for the button */
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+    background-color: #e55d00; /* Darker orange for hover effect */
+}
+
+.about-us {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5dc; /* Light beige background for the about section */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.about-us h2, .about-us h3 {
+    color: #333;
+}
+
+.about-us p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.team {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.team-member {
+    flex: 1;
+    margin: 10px;
+}
+
+.team-member img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.team-member h4 {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.team-member p {
+    margin-top: 0;
+    color: #777;
+}

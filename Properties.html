@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Properties</title>
+    <style>
+        /* Body Styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Properties Section */
+.properties {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.property {
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.property img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.property h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.property p {
+    margin: 5px 0;
+}
+
+.property:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+    </style>
+</head>
+<body>
+<header>
+    <div class="properties">
+        <div class="property">
+            <img src="luxuryvilla.jfif" alt="Property 1">
+            <h2>Luxury Villa</h2>
+            <p>Living areas: Spacious living rooms, dining areas, and kitchens 
+                Outdoor areas: Backyards, front yards, balconies, terraces, pools, gardens, and lawns 
+                Entertainment: Cinema rooms, games rooms, and kids areas 
+                Sports facilities: Tennis courts, basketball courts, and mini golf courses 
+                Fitness: Gyms and spas 
+                Staff: Dedicated staff to serve guests and tenants</p>
+            <p>$500,000</p>
+        </div>
+        <div class="property">
+            <img src="appartment.jpg" alt="Property 2">
+            <h2>Modern Apartment</h2>
+            <p>An apartment is a residential unit that is part of one (or several) residential buildings, or a separate dwelling within a house with its own entrance, bathroom and kitchen.Thisapartment has everything you need from 2 bedrooms two bathrooms and a large drawing room and a nice view of the city.Itis situated in the major part of the city so it is a very conveninient place to stay at.</p>
+            <p>$350,000</p>
+        </div>
+        <div class="property">
+            <img src="cottage.avif" alt="Property 3">
+            <h2>Cozy Cottage</h2>
+            <p>Warm textures: Cozy cottages often have warm textures, such as rugs, blankets, pillows, and curtains. 
+                Nostalgic charm: Cozy cottages often have vintage-look fixtures, hardware, and woodwork. 
+                Cozy furniture: Cozy cottages often have cozy furniture that makes everyone feel at home. 
+                Playful prints: Cozy cottages often have playful prints and mismatched hand-me-downs. 
+                Architectural elements: Cozy cottages often borrow architectural elements from other house styles but showcase them on a smaller scale</p>
+            <p>$250,000</p>
+        </div>
+    </div>
+</header>
+</body>
+</html>
